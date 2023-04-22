@@ -1,0 +1,80 @@
+.header {
+    text-align: center;
+
+    .logoText {
+        text-transform: uppercase;
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+
+    .secendText {
+        font-size: 14px;
+    }
+
+    .borderPrice {
+        box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+        border: 1px solid #e5e5e5;
+        background-color: #f6f6f6;
+        padding: 1px;
+        margin: 10px;
+        border-radius: 10px;
+
+        .price {
+            margin: 0;
+            font-size: 22px;
+            text-transform: uppercase;
+        }
+
+        .descPrice {
+            font-size: 15px;
+
+            span {
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+.a_Phone {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+
+    .phoneNumber {
+        font-size: 30px;
+
+        margin-bottom: 10px;
+        margin: 15px;
+
+
+        .phoneBlock {
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 20px;
+            margin-bottom: 5px;
+
+            .number {
+                margin: 0;
+
+            }
+
+            .text_phone {
+                text-decoration: underline;
+                padding-bottom: 5px;
+                margin: 0;
+                font-size: 15px;
+            }
+        }
+
+        &:hover {
+            color: rgba(78, 74, 74, 0.837);
+            transition: all 0.3s ease-in-out;
+
+            .text_phone {
+                color: rgba(0, 0, 0, 0.54);
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+
+}

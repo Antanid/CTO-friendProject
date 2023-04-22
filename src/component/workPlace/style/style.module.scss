@@ -1,0 +1,39 @@
+.work_content {
+    .work_Text {
+        text-align: center;
+
+        .ready_text {
+            margin-top: 50px;
+            font-weight: 900;
+            font-size: 15px;
+        }
+        .text_h2{
+            margin: 0;
+            font-size: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+           font-family: Font, sans-serif;
+           margin-bottom: 10px;
+        }
+        .now_work{
+            margin-top: 10px;
+            padding: 5px;
+            display: inline;
+            color: #ffff;
+            background-color: #008000
+        }
+        .street{
+            font-size: 13px;
+        }
+    }
+
+    .work_img {
+        display: flex;
+        justify-content: space-evenly;
+
+        img {
+            width: 440px;
+            border-radius: 20px;
+        }
+    }
+}

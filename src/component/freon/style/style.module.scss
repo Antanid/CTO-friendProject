@@ -1,0 +1,24 @@
+.freon_content {
+    margin: 0 10px;
+    .freon_img {
+        display: flex;
+        justify-content: space-evenly;
+
+        img {
+            width: 440px;
+            border-radius: 20px;
+        }
+    }
+    .freon_text{
+        .first_text{
+            text-align: center;
+            font-size: 15px;
+            font-style: italic;
+        }
+        .secend_text{
+            font-style: italic;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+}

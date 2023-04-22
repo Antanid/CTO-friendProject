@@ -1,0 +1,28 @@
+.ask_wprapper {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    margin: 0 10px;
+    .ask_content {
+        height: 300px;
+        overflow: scroll;
+        margin: 50px 20px;
+
+        h2 {
+            margin: 0;
+            margin-top: 10px;
+            font-size: 30px;
+            font-weight: 800;
+        }
+
+        p {
+            margin: 0;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+    }
+    .img_ask{
+        img{
+            width: 100%;
+        }
+    }
+}

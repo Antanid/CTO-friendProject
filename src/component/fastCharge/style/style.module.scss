@@ -1,0 +1,15 @@
+.charge_content{
+    margin: 0 10px;
+    .img_block{
+        display: flex;
+        justify-content: space-evenly;
+        img{
+            width: 440px;
+            border-radius: 20px;
+        }
+    }
+    .timeCharge{
+        font-style: italic;
+        font-size: 15px;
+    }
+}
